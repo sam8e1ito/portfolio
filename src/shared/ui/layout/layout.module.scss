@@ -1,6 +1,7 @@
 .shell {
     min-height: 100vh;
     overflow-x: clip;
+    position: relative;
 }
 
 .header {
@@ -296,4 +297,7 @@ footer {
     justify-content: center;
     gap: 40px;
     background-color: var(--bg-dark);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
