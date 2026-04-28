@@ -6,7 +6,7 @@ export const demoProjects: Project[] = [
     title: 'Realtime Orders Dashboard',
     date: new Date('2026-03-18').getTime(),
     image:
-      '/public/img-placeholder.jpg',
+      '/public/img-placeholder.svg',
     description:
       'A responsive operations dashboard with live status cards, filtering, and a streamlined review flow for daily order management.',
     techStack: ['React', 'TypeScript', 'Firebase', 'Sass'],
@@ -18,7 +18,7 @@ export const demoProjects: Project[] = [
     title: 'Studio Booking Landing Flow',
     date: new Date('2026-02-05').getTime(),
     image:
-      '/public/img-placeholder.jpg',
+      '/public/img-placeholder.svg',
     description:
       'A booking-focused site with conversion-minded sections, service highlights, and a quick contact handoff.',
     techStack: ['Vite', 'React Router', 'Sass'],

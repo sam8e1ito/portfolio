@@ -276,5 +276,5 @@ footer {
   flex-direction: row;
   justify-content: center;
   gap: 40px;
-  background-color: rgb(25, 16, 34);
+  background-color: var(--bg-dark);
 }
