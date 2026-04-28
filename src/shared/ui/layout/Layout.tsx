@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Header } from './Header';
+import { Footer } from './Footer';
 import { Sidebar } from './Sidebar';
 import styles from './layout.module.scss';
 
@@ -44,6 +45,7 @@ export const Layout = () => {
       <main className={styles.main}>
         <Outlet />
       </main>
+      <Footer></Footer>
     </div>
   );
 };
