@@ -1,8 +1,8 @@
 export const Footer = () => {
     return (
         <footer>
-            <a href="/public/Impressum" download>Impressum</a>
-            <a href="/public/Datenschutz" download>Datenschutz</a>
+            <a href="/Impressum.pdf" download>Impressum</a>
+            <a href="/Datenschutz.pdf" download>Datenschutz</a>
         </footer>
     )
 }
